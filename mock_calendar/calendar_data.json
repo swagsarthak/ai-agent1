@@ -1,0 +1,361 @@
+{
+  "users": [
+    {
+      "id": "user_me",
+      "name": "You",
+      "email": "me@company.com",
+      "role": "Organizer / Team Lead",
+      "timezone": "EST",
+      "working_hours": {
+        "start_time": "09:00",
+        "end_time": "17:00",
+        "work_days": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "user_alex",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@company.com",
+      "role": "Senior Product Manager",
+      "timezone": "EST",
+      "working_hours": {
+        "start_time": "09:00",
+        "end_time": "17:00",
+        "work_days": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "user_bob",
+      "name": "Bob Chen",
+      "email": "bob.chen@company.com",
+      "role": "Staff Engineer",
+      "timezone": "EST",
+      "working_hours": {
+        "start_time": "10:00",
+        "end_time": "18:00",
+        "work_days": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "user_charlie",
+      "name": "Charlie Davis",
+      "email": "charlie.davis@company.com",
+      "role": "Lead UX Designer",
+      "timezone": "EST",
+      "working_hours": {
+        "start_time": "08:30",
+        "end_time": "16:30",
+        "work_days": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "user_dana",
+      "name": "Dana Vance",
+      "email": "dana.vance@company.com",
+      "role": "Director of Engineering",
+      "timezone": "EST",
+      "working_hours": {
+        "start_time": "09:00",
+        "end_time": "17:00",
+        "work_days": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "dda67c3b",
+      "title": "Sprint Planning",
+      "participants": [
+        "user_alex"
+      ],
+      "start_time": "2026-09-17T09:30:00",
+      "end_time": "2026-09-17T11:00:00",
+      "description": "Standard calendar block for Sprint Planning",
+      "status": "confirmed"
+    },
+    {
+      "id": "b81c263d",
+      "title": "Product Review",
+      "participants": [
+        "user_alex"
+      ],
+      "start_time": "2026-09-17T14:00:00",
+      "end_time": "2026-09-17T15:30:00",
+      "description": "Standard calendar block for Product Review",
+      "status": "confirmed"
+    },
+    {
+      "id": "ae530939",
+      "title": "Architecture Sync",
+      "participants": [
+        "user_bob"
+      ],
+      "start_time": "2026-09-17T10:30:00",
+      "end_time": "2026-09-17T12:00:00",
+      "description": "Standard calendar block for Architecture Sync",
+      "status": "confirmed"
+    },
+    {
+      "id": "4c699fed",
+      "title": "Focus Time / Deep Work",
+      "participants": [
+        "user_bob"
+      ],
+      "start_time": "2026-09-17T13:00:00",
+      "end_time": "2026-09-17T15:00:00",
+      "description": "Standard calendar block for Focus Time / Deep Work",
+      "status": "confirmed"
+    },
+    {
+      "id": "db9e5f12",
+      "title": "Design Critique",
+      "participants": [
+        "user_charlie"
+      ],
+      "start_time": "2026-09-17T10:00:00",
+      "end_time": "2026-09-17T11:30:00",
+      "description": "Standard calendar block for Design Critique",
+      "status": "confirmed"
+    },
+    {
+      "id": "d0618848",
+      "title": "User Research Session",
+      "participants": [
+        "user_charlie"
+      ],
+      "start_time": "2026-09-17T14:30:00",
+      "end_time": "2026-09-17T16:00:00",
+      "description": "Standard calendar block for User Research Session",
+      "status": "confirmed"
+    },
+    {
+      "id": "2fcd1d8e",
+      "title": "Executive Sync",
+      "participants": [
+        "user_dana"
+      ],
+      "start_time": "2026-09-17T09:00:00",
+      "end_time": "2026-09-17T10:30:00",
+      "description": "Standard calendar block for Executive Sync",
+      "status": "confirmed"
+    },
+    {
+      "id": "2ea51857",
+      "title": "Budget Review",
+      "participants": [
+        "user_dana"
+      ],
+      "start_time": "2026-09-17T15:00:00",
+      "end_time": "2026-09-17T16:30:00",
+      "description": "Standard calendar block for Budget Review",
+      "status": "confirmed"
+    },
+    {
+      "id": "e221eac3",
+      "title": "Customer Discovery Call",
+      "participants": [
+        "user_alex"
+      ],
+      "start_time": "2026-09-18T10:00:00",
+      "end_time": "2026-09-18T11:00:00",
+      "description": "Standard calendar block for Customer Discovery Call",
+      "status": "confirmed"
+    },
+    {
+      "id": "dbee69d7",
+      "title": "1:1 with Dana",
+      "participants": [
+        "user_alex"
+      ],
+      "start_time": "2026-09-18T15:00:00",
+      "end_time": "2026-09-18T16:00:00",
+      "description": "Standard calendar block for 1:1 with Dana",
+      "status": "confirmed"
+    },
+    {
+      "id": "3b7eefa9",
+      "title": "Code Review / PR Backlog",
+      "participants": [
+        "user_bob"
+      ],
+      "start_time": "2026-09-18T10:00:00",
+      "end_time": "2026-09-18T11:30:00",
+      "description": "Standard calendar block for Code Review / PR Backlog",
+      "status": "confirmed"
+    },
+    {
+      "id": "46e86be2",
+      "title": "Backend Guild Sync",
+      "participants": [
+        "user_bob"
+      ],
+      "start_time": "2026-09-18T14:00:00",
+      "end_time": "2026-09-18T15:00:00",
+      "description": "Standard calendar block for Backend Guild Sync",
+      "status": "confirmed"
+    },
+    {
+      "id": "caf32400",
+      "title": "Prototype Testing",
+      "participants": [
+        "user_charlie"
+      ],
+      "start_time": "2026-09-18T09:00:00",
+      "end_time": "2026-09-18T10:30:00",
+      "description": "Standard calendar block for Prototype Testing",
+      "status": "confirmed"
+    },
+    {
+      "id": "411f00ea",
+      "title": "Wireframing Block",
+      "participants": [
+        "user_charlie"
+      ],
+      "start_time": "2026-09-18T13:00:00",
+      "end_time": "2026-09-18T14:30:00",
+      "description": "Standard calendar block for Wireframing Block",
+      "status": "confirmed"
+    },
+    {
+      "id": "033c66f1",
+      "title": "1:1 with Alex",
+      "participants": [
+        "user_dana"
+      ],
+      "start_time": "2026-09-18T15:00:00",
+      "end_time": "2026-09-18T16:00:00",
+      "description": "Standard calendar block for 1:1 with Alex",
+      "status": "confirmed"
+    },
+    {
+      "id": "9d05e020",
+      "title": "All-Hands Prep",
+      "participants": [
+        "user_dana"
+      ],
+      "start_time": "2026-09-18T11:00:00",
+      "end_time": "2026-09-18T12:30:00",
+      "description": "Standard calendar block for All-Hands Prep",
+      "status": "confirmed"
+    },
+    {
+      "id": "f2257995",
+      "title": "Roadmap Workshop",
+      "participants": [
+        "user_alex"
+      ],
+      "start_time": "2026-09-19T09:00:00",
+      "end_time": "2026-09-19T12:00:00",
+      "description": "Standard calendar block for Roadmap Workshop",
+      "status": "confirmed"
+    },
+    {
+      "id": "4c39a71a",
+      "title": "Backlog Grooming",
+      "participants": [
+        "user_alex"
+      ],
+      "start_time": "2026-09-19T13:30:00",
+      "end_time": "2026-09-19T14:30:00",
+      "description": "Standard calendar block for Backlog Grooming",
+      "status": "confirmed"
+    },
+    {
+      "id": "17f6b409",
+      "title": "Incident Postmortem",
+      "participants": [
+        "user_bob"
+      ],
+      "start_time": "2026-09-19T11:00:00",
+      "end_time": "2026-09-19T12:00:00",
+      "description": "Standard calendar block for Incident Postmortem",
+      "status": "confirmed"
+    },
+    {
+      "id": "6b19c660",
+      "title": "Infrastructure Migration",
+      "participants": [
+        "user_bob"
+      ],
+      "start_time": "2026-09-19T14:00:00",
+      "end_time": "2026-09-19T17:00:00",
+      "description": "Standard calendar block for Infrastructure Migration",
+      "status": "confirmed"
+    },
+    {
+      "id": "84a5cda5",
+      "title": "Design System Working Group",
+      "participants": [
+        "user_charlie"
+      ],
+      "start_time": "2026-09-19T10:00:00",
+      "end_time": "2026-09-19T12:00:00",
+      "description": "Standard calendar block for Design System Working Group",
+      "status": "confirmed"
+    },
+    {
+      "id": "de9e1357",
+      "title": "Brand Review",
+      "participants": [
+        "user_charlie"
+      ],
+      "start_time": "2026-09-19T15:00:00",
+      "end_time": "2026-09-19T16:00:00",
+      "description": "Standard calendar block for Brand Review",
+      "status": "confirmed"
+    },
+    {
+      "id": "7da48498",
+      "title": "Strategy Offsite",
+      "participants": [
+        "user_dana"
+      ],
+      "start_time": "2026-09-19T09:00:00",
+      "end_time": "2026-09-19T17:00:00",
+      "description": "Standard calendar block for Strategy Offsite",
+      "status": "confirmed"
+    },
+    {
+      "id": "48f4a666",
+      "title": "Meeting",
+      "participants": [
+        "user_me",
+        "user_alex"
+      ],
+      "start_time": "2026-09-18T13:00:00",
+      "end_time": "2026-09-18T13:30:00",
+      "description": "Scheduled by AI Workflow Agent for You, Alex Rivera",
+      "status": "confirmed"
+    }
+  ]
+}
